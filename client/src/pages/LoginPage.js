@@ -26,7 +26,7 @@ export default function LoginPage() {
   }
 
   if (redirect) {
-    return <Navigate to={'/'} />
+    return <Navigate to={'https://mern-blog-f9q0.onrender.com'} />
   }
   return (
     <form className="login" onSubmit={login}>
